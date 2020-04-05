@@ -1,0 +1,136 @@
+body {
+    background-color: whitesmoke;
+}
+.container {
+    width: 1250px;
+    margin: auto;
+}
+.header {
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.h2 {
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.opis {
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+
+}
+
+.opis2
+{
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    display:block;
+    align-items:center;
+    text-align:center;
+
+}
+fieldset {
+    border:0 none;
+}
+
+.karandash {
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form {
+    margin-top: 50px;
+
+}
+
+.button {
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+    border-width: 0;
+    display: block;
+    width: 120px;
+    margin: 25px auto 0;
+    background: gray;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+    transition-delay: 0.1s;
+}
+
+.right {
+    float: right;
+}
+.menu li
+{
+    float:left;
+    list-style: none;
+    margin:10px 25px ;
+}
+.menu
+{
+    margin:0 auto;
+    display:table;
+}
+.blok-menu
+{
+    overflow: hidden;
+    background: #444;
+    box-shadow: 0px 13px 17px -6px #000000;
+}
+.menu li a
+{
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    color:#fff;
+    text-decoration: none;
+}
+.menu li a:hover
+{
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    color: grey;
+    
+}
+
+.table {
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    
+}
+
+table {
+    border: 0px solid black;
+    width:100%;
+    text-align: center;
+}
+
+table caption {
+    margin-bottom: 50px;
+}
+
+table td {
+    text-align: center;
+    width: 400px;
+}
+
+table img {
+    width: 400px;
+    height:400px;
+}
+
+.footer {
+    display:flex;
+    min-height: 100%;
+    color: gray;
+}
+
+p{flex:0 0 auto;}
+
+
+
