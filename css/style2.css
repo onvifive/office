@@ -50,8 +50,7 @@ body {
 .menu li a:hover
 {
     font: 18px Verdana, Arial, Helvetica, sans-serif;
-    color:#ccc;
-    border-bottom:1px dotted #ccc;
+    color: grey;
 }
 
 .table {
